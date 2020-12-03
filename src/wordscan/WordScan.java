@@ -50,9 +50,9 @@ public class WordScan {
 				}
 				if (count != 0) // Check for count not equal to zero
 				{
-					System.out.println("The pattern is present " + count + " times in the file");
+					System.out.println("The word is present " + count + " times in this file");
 				} else {
-					System.out.println("The pattern is not present in the file");
+					System.out.println("The word is not present in the file");
 				}
 				try {
 					fr.close();
